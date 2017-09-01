@@ -19,7 +19,7 @@ namespace EgyptianFraction
         private static void Test(int numerator, int denominator)
         {
             EgyptianFraction ef = new EgyptianFraction(numerator, denominator);
-            Console.WriteLine(ef.GetFraction + "=" + string.Join(" + ", ef.GetUnitFractions()));
+            Console.WriteLine(ef.GetFraction + " = " + string.Join(" + ", ef.GetUnitFractions()));
         }
 
         public class Fraction
